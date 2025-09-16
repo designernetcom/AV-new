@@ -1206,6 +1206,13 @@ img {
   height: 100%;
   transition: all 0.4s;
 }
+
+    @media (max-width: 768px) {
+  .elements2 {
+    display: none !important;
+  }
+}
+
 .service3 .service3-slider-widget .service3-slider-box:hover .img1 img {
   transform: scale(1.1) rotate(-4deg);
   transition: all 0.4s;
@@ -1699,12 +1706,12 @@ img {
 }
 .service-main-details-area .service-main-sidebar {
   position: sticky;
-  top: 120px;
+  top: 40px;
 }
 .service-main-details-area .service-main-sidebar h3 {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s20);
+  font-size: 24px;
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
   line-height: 20px;
@@ -3137,7 +3144,7 @@ img {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  padding: 180px 0 0;
+  padding: 180px 0 100px;
 }
 .all-inner-header-area::after {
   position: absolute;
@@ -5662,7 +5669,7 @@ img {
 }
 .homepage1-body .vl-transparent-header .vl-logo img {
   /* width: 164px; */
-  height: 100px;
+  height: 113px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -11570,9 +11577,17 @@ img {
     margin-bottom: 30px;
   }
 }
+
+
+@media (max-width: 768px) {
+  .service-main-sidebar {
+    display: none !important;
+  }
+}
+
 .choose1-inner-widget .choose-heading .choose-boxarea .icons {
-  height: 48px;
-  width: 48px;
+  height: 55px;
+  width: 55px;
   text-align: center;
   line-height: 48px;
   display: inline-block;
@@ -12785,7 +12800,7 @@ img {
   overflow: hidden;
 }
 .about2-inner-widget .about2-heading {
-  padding: 0 70px 0 0;
+  padding: 0 0px 0 70px;
 }
 @media (max-width: 767px) {
   .about2-inner-widget .about2-heading {
@@ -12818,9 +12833,9 @@ img {
   -webkit-clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
           clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
 }
-.about2-inner-widget .about2-heading .choose-boxarea .content-area {
+/* .about2-inner-widget .about2-heading .choose-boxarea .content-area {
   padding-left: 64px;
-}
+} */
 .about2-inner-widget .about2-heading .choose-boxarea .content-area a {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
